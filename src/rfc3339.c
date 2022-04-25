@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <sys/timeb.h>
 
 
 #define RFC3339_VERSION "0.0.16"
