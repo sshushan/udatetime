@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-1^^1
 try:
     import __pypy__
 except ImportError:
