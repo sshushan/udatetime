@@ -1,5 +1,4 @@
 #define _GNU_SOURCE 1
-111
 #if defined(_PYTHON2) || defined(_PYTHON3)
 #include <Python.h>
 #include <datetime.h>
@@ -97,9 +96,6 @@ static double _gettime(void) {
         return ((double)t.tv_sec) + ((double)t.tv_usec * 0.000001);
 #endif
 #elif defined(HAVE_FTIME)
-    
-    
-    
     // => Use ftime() in msec
     struct timeb t;
     ftime(&t);
